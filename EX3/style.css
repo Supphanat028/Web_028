@@ -1,0 +1,21 @@
+body {
+
+    @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+    font-family: 'Itim', cursive;
+    background-color: antiquewhite;
+    
+}
+h1{
+    color: #400040;
+}
+h3{
+    font-size: 26px;
+    color: #800040;
+}
+label{
+    font-size: 18px;
+    color: #631863;
+}
+option{
+    font-size: 15px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>FormIT+IS</title>
+  </head>
+  <body>
+    <h1>ลงทะเบียนศิษย์เก่า IT+IS</h1>
+    <p></p>
+    <label for="Username">ชื่อ</label>
+    <input type="text" name="Username" size="10" />
+    <label for="lastname"> สกุล</label>
+    <input type="text" name="lastname" size="10" />
+    <p></p>
+    <label for="pass">รหัสนักศึกษา</label>
+    <input type="text" name="pass" />
+    <p></p>
+    <label for="gen">เพศ</label>
+    <input type="radio" name="gen" value="male" />ชาย
+    <input type="radio" name="gen" value="female" />หญิง
+    <input type="radio" name="gen" value="other" />อื่นๆ
+    <p></p>
+    <label for="year">ปีการศึกษา</label>
+    <input type="number" name="year" maxlength="4" size="10" />
+    <p></p>
+    <label for="location">ที่อยู่</label>
+    <textarea name="location" cols="30" rows="2.5"></textarea>
+    <p></p>
+    <label for="email">อีเมล</label>
+    <input type="email" name="email" size="15" />
+    <p></p>
+    <label for="phone">เบอร์โทร</label>
+    <input type="number" name="phone" maxlength="10" size="15" />
+    <p></p>
+    <label for="study">หลักสูตร</label>
+    <input type="radio" name="study" value="IT" />IT
+    <input type="radio" name="study" value="IS" />IS
+    <p></p>
+    <label for="occu">อาชีพปัจจุบัน</label>
+    <input type="text" name="occu" size="10" />
+    <h3>สถานที่ทำงาน</h3>
+    <label for="nameCom">ชื่อบริษัท</label>
+    <input type="text" name="nameCom" size="10" />
+    <p></p>
+    <label for="locaWork">ที่อยู่บริษัท</label>
+    <textarea name="locaWork" cols="30" rows="2.5"></textarea>
+    <p></p>
+    <label for="TypeWork">ประเภทงานที่ทำ</label>
+    <select name="TypeWork">
+      <option value="Web Developer">Web Developer</option>
+      <option value="SA">SA</option>
+      <option value="Graphic Design">Graphic Design</option>
+      <option value="Digital Marketing">Digital Marketing</option>
+    </select>
+    <p></p>
+    <label for="picture">รูปภาพประจำตัว</label>
+    <input type="file" name="picture" />
+    <p></p>
+    <input type="submit" name="subscribe" value="Subscribe" />
+    <input type="reset" name="reset" value="Reset" />
+  </body>
+</html>
