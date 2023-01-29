@@ -3,3 +3,21 @@ body{
     font-family: 'Mali', cursive;
     color: #800040;
 }
+img.im{
+    width: 20px;
+}
+.con1{
+    display: flex;
+    flex-direction: row;
+    margin:  auto;
+}
+.con2{
+    
+    width: 40%;
+    flex-direction: column;
+}
+.con3{
+    margin: 0 auto;
+    width: 60%;
+    flex-direction: column;
+}
